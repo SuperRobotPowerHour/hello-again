@@ -1,0 +1,16 @@
+<?xml version "1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 M.R. <> -->
+<component type="desktop">
+    <id>com.github.SuperRobotPowerHour.hello-again.desktop</id>
+    <metadata_license>CC0</metadata_licence>
+    <name>Hello-Again</name>
+    <summary>Learning Gtk and Vala</summary>
+    <description>
+        <p>It's cute!</p>
+    </description>
+    <custom>
+        <value key="x-appcenter-color-primary">#603461</value>
+        <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+        <value key="x-appcenter-suggested-price">0</value>
+    </custom>
+</component>
