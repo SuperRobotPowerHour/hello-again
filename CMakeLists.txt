@@ -19,6 +19,11 @@ set (RELEASE_NAME "A hello world.")
 set (VERSION "0.1")
 set (VERSION_INFO "whats up world")
 
+# Translation files
+set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
+add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
+add_subdirectory (po)
+
 # we're about to use pkgconfig to make sure dependencies are installed so let's find pkgconfig first
 find_package(PkgConfig)
 

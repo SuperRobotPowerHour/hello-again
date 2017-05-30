@@ -22,13 +22,13 @@
 int main (string[] args) {
     Gtk.init (ref args);
     var window = new Gtk.Window ();
-    window.title = "Yo";
+    window.title = _("Yo");
     window.set_border_width (12);
     window.set_position (Gtk.WindowPosition.CENTER);
     window.set_default_size (300, 200);
     window.destroy.connect (Gtk.main_quit);
     
-    var label = new Gtk.Label ("Hello Again World!");
+    var label = new Gtk.Label (_("Hello Again World!"));
     window.add (label);
     window.show_all ();
     
